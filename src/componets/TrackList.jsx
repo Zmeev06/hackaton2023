@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Container, Flex, IconButton, Heading } from '@chakra-ui/react';
-import firstSvg from '../assets/TrackList/1.svg'
+import Repeat from './UI/CustomIcons/Repeat';
+import Mix from './UI/CustomIcons/Mix';
 
 const TrackList = () => {
   return (
@@ -9,10 +10,14 @@ const TrackList = () => {
         <Heading>Track list</Heading>
         <Flex>
           <IconButton
-          onClick={() => console.log('hui')}
-            colorScheme="blue"
             aria-label="Search database"
-            icon={firstSvg}
+            colorScheme={'none'}
+            icon={<Mix/>}
+          />
+          <IconButton
+            colorScheme={"none"}
+            aria-label="Search database"
+            icon={<Repeat/>}
           />
         </Flex>
       </Container>
