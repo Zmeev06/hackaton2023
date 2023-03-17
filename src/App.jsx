@@ -9,13 +9,13 @@ import {
   Grid,
   theme,
 } from '@chakra-ui/react';
-import Tabs  from './componets/UI/Tabs'
+import TrackList  from './componets/TrackList'
 import { ColorModeSwitcher } from './ColorModeSwitcher';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Tabs></Tabs>
+      <TrackList/>
     </ChakraProvider>
   );
 }
