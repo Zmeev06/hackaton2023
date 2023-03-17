@@ -3,12 +3,12 @@ import {
   ChakraProvider,
   theme,
 } from '@chakra-ui/react';
-import Main from './componets/Main';
+import TrackList from './componets/TrackList';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Main></Main>
+      <TrackList></TrackList>
     </ChakraProvider>
   );
 }
