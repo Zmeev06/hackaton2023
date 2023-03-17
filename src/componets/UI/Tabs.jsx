@@ -1,11 +1,12 @@
-import { Box, Container, Flex, Button } from '@chakra-ui/layout';
-import React from 'react'
+import { Box, Container, Flex, IconButton } from '@chakra-ui/react';
+import React, {useState} from 'react'
 
-const Tabs = (btns) => {
+const Tabs = () => {
+    const [btns, setBtns] = useState([{img:"./assets/headfones.svg"}])
     return (
         <Container backgroundColor={"grey"} maxW={"65"} height={"100vh"}>
             <Flex flexDirection={"column"} maxW="50px" justifyContent={'space-around'}>
-                {btns.map((btn, index) => <Button key={index}>{btn.body}</Button>)}
+                {btns.map((btn, index) => <IconButton  key={index}></IconButton>)}
             </Flex>
         </Container>
      );
