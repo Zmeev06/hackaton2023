@@ -5,11 +5,12 @@ import {
 } from '@chakra-ui/react';
 import Tabs  from './componets/UI/Tabs'
 import { ColorModeSwitcher } from './ColorModeSwitcher';
+import Main from './componets/Main';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Tabs></Tabs>
+      <Main></Main>
     </ChakraProvider>
   );
 }
