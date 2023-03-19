@@ -18,7 +18,6 @@ import track11 from '../assets/mp3/track11.mp3';
 import track12 from '../assets/mp3/track12.mp3';
 import track13 from '../assets/mp3/track13.mp3';
 import track14 from '../assets/mp3/track14.mp3';
-import MyDrawer from '../componets/UI/Drawer';
 const HomePage = () => {
   const [tracks, setTracks] = useState([
     {
