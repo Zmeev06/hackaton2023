@@ -175,7 +175,7 @@ const Player = ({
             }
             onClick={() => (volume ? setVolume(0) : setVolume(0.4))}
           />
-          <Text w="40px">{Math.round(volume * 250)}%</Text>
+          <Text w="50px">{Math.round(volume * 250)}%</Text>
         </Flex>
 
         <Slider
