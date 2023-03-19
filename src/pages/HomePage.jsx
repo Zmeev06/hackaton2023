@@ -22,14 +22,6 @@ const HomePage = () => {
   const [tracks, setTracks] = useState([
     {
       id: 0,
-      img: './assets/TopChart/img/track1.jpg',
-      audio: track1,
-      musician: 'INSTASAMKA',
-      title: 'ЗА ДЕНЬГИ ДА',
-      isPlaying: false,
-    },
-    {
-      id: 1,
       img: './assets/TopChart/img/track2.jpg',
       audio: track2,
       musician: 'Король и Шут',
@@ -37,7 +29,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 2,
+      id: 1,
       img: './assets/TopChart/img/track3.jpg',
       audio: track3,
       musician: 'Londzil',
@@ -45,7 +37,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 3,
+      id: 2,
       img: './assets/TopChart/img/track4.jpg',
       audio: track4,
       musician: 'Azzi',
@@ -53,7 +45,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 4,
+      id: 3,
       img: './assets/TopChart/img/track5.jpg',
       audio: track5,
       musician: 'SHOOVAL',
@@ -61,7 +53,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 5,
+      id: 4,
       img: './assets/TopChart/img/track6.jpg',
       audio: track6,
       musician: 'Oxxxymiron',
@@ -69,7 +61,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 6,
+      id: 5,
       img: './assets/TopChart/img/track7.jpg',
       audio: track7,
       musician: 'Макс Корж',
@@ -77,7 +69,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 7,
+      id: 6,
       img: './assets/TopChart/img/track8.jpg',
       audio: track8,
       musician: 'Остап Парфёнов',
@@ -85,7 +77,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 8,
+      id: 7,
       img: './assets/TopChart/img/track9.jpg',
       audio: track9,
       musician: 'Нурминский',
@@ -93,7 +85,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 9,
+      id: 8,
       img: './assets/TopChart/img/track10.jpg',
       audio: track10,
       musician: 'Каста',
@@ -101,7 +93,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 10,
+      id: 9,
       img: './assets/TopChart/img/track11.jpg',
       audio: track11,
       musician: 'Макс Корж',
@@ -109,7 +101,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 11,
+      id: 10,
       img: './assets/TopChart/img/track12.jpg',
       audio: track12,
       musician: 'Мот',
@@ -117,7 +109,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 12,
+      id: 11,
       img: './assets/TopChart/img/track13.jpg',
       audio: track13,
       musician: 'Папин Олимпос',
@@ -125,7 +117,7 @@ const HomePage = () => {
       isPlaying: false,
     },
     {
-      id: 13,
+      id: 12,
       img: './assets/TopChart/img/track14.jpg',
       audio: track14,
       musician: 'pyrokinesis',
