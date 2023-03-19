@@ -49,7 +49,6 @@ const Player = ({
   }, [currTime]);
 
   const [seconds, setSeconds] = useState();
-
   useEffect(() => {
     if (duration) {
       const sec = duration / 1000;
@@ -116,8 +115,8 @@ const Player = ({
         <Heading size={'md'}>{track.title}</Heading>
         <Flex justifyContent={'space-between'} w={'85%'}>
           <Text>
-            {currTime.min}:
-            {currTime.sec < 10 ? `0${currTime.sec}` : currTime.sec}
+            {Number.isNaN(currTime.min) ? "0" : currTime.min}:
+            {Number.isNaN(currTime.sec) ? "00" : currTime.sec < 10 ? `0${currTime.sec}` : currTime.sec}
           </Text>
           <Text>
             {time.min}:{time.sec < 10 ? `0${time.sec}` : time.sec}
