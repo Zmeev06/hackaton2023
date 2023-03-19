@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/hackaton2023/static/css/main.3d628c7b.css",
+    "main.js": "/hackaton2023/static/js/main.ad27392c.js",
+    "static/js/845.2935a0cd.chunk.js": "/hackaton2023/static/js/845.2935a0cd.chunk.js",
+    "static/media/track7.mp3": "/hackaton2023/static/media/track7.46b22ae229564868b5a7.mp3",
+    "static/media/track6.mp3": "/hackaton2023/static/media/track6.a69a75240fa943ca7082.mp3",
+    "static/media/track14.mp3": "/hackaton2023/static/media/track14.4b6c1fc780d4728f7821.mp3",
+    "static/media/track13.mp3": "/hackaton2023/static/media/track13.35a4a2e5bab9ce136f59.mp3",
+    "static/media/track12.mp3": "/hackaton2023/static/media/track12.6ac407b395a4e290279b.mp3",
+    "static/media/track2.mp3": "/hackaton2023/static/media/track2.b6d7613943d1af93b48c.mp3",
+    "static/media/track10.mp3": "/hackaton2023/static/media/track10.2b6df2b5afe8d7cd5270.mp3",
+    "static/media/track11.mp3": "/hackaton2023/static/media/track11.add7facbfd6b0250dc71.mp3",
+    "static/media/track9.mp3": "/hackaton2023/static/media/track9.1f6438894a53eb2cd5bf.mp3",
+    "static/media/track5.mp3": "/hackaton2023/static/media/track5.2d79b61f5532dd520911.mp3",
+    "static/media/track8.mp3": "/hackaton2023/static/media/track8.463ea2755b7ba0434d75.mp3",
+    "static/media/track1.mp3": "/hackaton2023/static/media/track1.acc6a42f7ccd0167ecb1.mp3",
+    "static/media/track4.mp3": "/hackaton2023/static/media/track4.ae8183d097d1813bcc3d.mp3",
+    "static/media/track3.mp3": "/hackaton2023/static/media/track3.87a61f965daa13c9619c.mp3",
+    "index.html": "/hackaton2023/index.html",
+    "main.3d628c7b.css.map": "/hackaton2023/static/css/main.3d628c7b.css.map",
+    "main.ad27392c.js.map": "/hackaton2023/static/js/main.ad27392c.js.map",
+    "845.2935a0cd.chunk.js.map": "/hackaton2023/static/js/845.2935a0cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d628c7b.css",
+    "static/js/main.ad27392c.js"
+  ]
+}
