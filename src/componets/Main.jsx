@@ -1,18 +1,14 @@
-import { Box, Container, Flex, Heading } from '@chakra-ui/react';
-import React from 'react';
-import Tabs from './UI/Tabs';
+import { Container, Heading } from '@chakra-ui/react';
+import React from 'react'
 
-const Main = () => {
-  return (
-    <Box>
-      <Flex>
-        <Tabs />
+const NewTrack = ({children, ...propsw}) => {
+    
+    return ( 
         <Container>
-          <Heading maxW={"181"} size={"lg"}>Discover New music</Heading>
+            <Heading maxW={"181"} size={"lg"}>Discover New music</Heading>
+            {children}
         </Container>
-      </Flex>
-    </Box>
-  );
-};
-
-export default Main;
+     );
+}
+ 
+export default NewTrack;
